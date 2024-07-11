@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Aplikasi Pesan Makanan"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AplikasiPesanMakanan"
+        tools:targetApi="31">
+        <activity
+            android:name=".CheckoutSuccessActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AplikasiPesanMakanan" />
+        <activity
+            android:name=".DetailCartActivity"
+            android:exported="false"
+            android:label="@string/title_cart_detail"
+            android:parentActivityName=".CartActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".CartActivity"
+            android:exported="false"
+            android:label="@string/title_cart"
+            android:parentActivityName=".MenuActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MenuDetailActivity"
+            android:exported="false"
+            android:label="@string/title_menu_detail"
+            android:parentActivityName=".MenuActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MenuActivity"
+            android:exported="false"
+            android:label="@string/title_menu">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false"
+            android:label="@string/title_signup">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/title_login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "495997124983",
+    "project_id": "ngeteh-c7ab1",
+    "storage_bucket": "ngeteh-c7ab1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:495997124983:android:247020f2b4b20f5d22a172",
+        "android_client_info": {
+          "package_name": "com.example.aplikasipesanmakanan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbBiE5L5Rsfr0Qn93abCf2bz4RLaCu8mc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

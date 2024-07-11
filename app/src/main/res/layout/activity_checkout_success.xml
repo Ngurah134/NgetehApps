@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+<!--    <ImageView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@drawable/ic_check_circle"-->
+<!--        android:tint="@color/purple_200"-->
+<!--        android:contentDescription="@null"-->
+<!--        android:layout_marginBottom="24dp"/>-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Checkout Successful!"
+        android:textColor="@color/purple_200"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+<!--    <TextView-->
+<!--        android:id="@+id/txt_order_details"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Order details will appear here"-->
+<!--        android:textColor="@android:color/black"-->
+<!--        android:textSize="16sp"-->
+<!--        android:layout_marginBottom="24dp"/>-->
+
+    <Button
+        android:id="@+id/btn_continue_shopping"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continue Shopping"
+        android:textColor="@android:color/white"
+        android:background="@color/purple_200"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"/>
+</LinearLayout>
